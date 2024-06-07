@@ -40,7 +40,7 @@
 	<h1
 		on:click|self={() => {
 			$mode = ($mode + 1) % modeData.modes.length;
-			toaster.pop(modeData.modes[$mode].name);
+			toaster.pop("I loveeeee youu snebsies");
 		}}
 		on:contextmenu|preventDefault|self={() => {
 			$mode = ($mode - 1 + modeData.modes.length) % modeData.modes.length;
@@ -64,17 +64,7 @@
 			/>
 		</GameIcon>
 	</div>
-	{#if tutorial}
-		<div
-			transition:scale
-			class="tutorial"
-			on:click={() => dispatch("closeTutPopUp")}
-			on:keydown={() => dispatch("closeTutPopUp")}
-		>
-			Swipe board or tap WORDLE+ to change game mode
-			<span class="ok">OK</span>
-		</div>
-	{/if}
+	
 </header>
 
 <style lang="scss">

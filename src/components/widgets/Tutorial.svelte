@@ -9,32 +9,32 @@
 <div class:complete={visible} class="examples">
 	<div><strong>Examples</strong></div>
 	<div class="row">
-		<Tile value="w" state="🟩" />
+		<Tile value="s" state="🟩" />
+		<Tile value="n" state="🔳" />
 		<Tile value="e" state="🔳" />
-		<Tile value="a" state="🔳" />
-		<Tile value="r" state="🔳" />
-		<Tile value="y" state="🔳" />
+		<Tile value="b" state="🔳" />
+		<Tile value="o" state="🔳" />
 	</div>
-	<div>The letter <strong>W</strong> is in the word and in the correct spot.</div>
+	<div>The letter <strong>S</strong> is in the word and in the correct spot.</div>
 	<div class="row">
-		<Tile value="p" state="🔳" />
-		<Tile value="i" state="🟨" />
+		<Tile value="b" state="🔳" />
+		<Tile value="a" state="🟨" />
 		<Tile value="l" state="🔳" />
 		<Tile value="l" state="🔳" />
 		<Tile value="s" state="🔳" />
 	</div>
-	<div>The letter <strong>I</strong> is in the word but in the wrong spot.</div>
+	<div>The letter <strong>A</strong> is in the word but in the wrong spot.</div>
 	<div class="row">
-		<Tile value="v" state="🔳" />
-		<Tile value="a" state="🔳" />
-		<Tile value="g" state="🔳" />
-		<Tile value="u" state="⬛" />
-		<Tile value="e" state="🔳" />
+		<Tile value="m" state="🔳" />
+		<Tile value="u" state="🔳" />
+		<Tile value="c" state="🔳" />
+		<Tile value="h" state="⬛" />
+		<Tile value="u" state="🔳" />
 	</div>
-	<div>The letter <strong>U</strong> is not in the word in any spot.</div>
+	<div>The letter <strong>H</strong> is not in the word in any spot.</div>
 </div>
 <div>
-	I really love you bubs, I know I'm busy sometimes so you can just pass the time playing Wordle for as long as you want baby.
+	I really love you bubs, I know I'm busy sometimes so you can just pass the time playing Snordle (Sneha + Wordle?) for as long as you want baby.
 </div>
 
 <style lang="scss">
