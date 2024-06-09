@@ -10,12 +10,13 @@
 
 	function copyStats() {
 		navigator.clipboard.writeText(
-			`${modeData.modes[$mode].name} Wordle+ #${state.wordNumber} ${
+			`Snordle?  #${state.wordNumber} ${
 				failed(state) ? "X" : state.guesses
 			}/${state.board.words.length}\n\n    ${state.board.state
 				.slice(0, state.guesses)
 				.map((r) => r.join(""))
-				.join("\n    ")}\nmikhad.github.io/wordle`
+				.join("\n    ")}\n
+				GOOD JOB BUBS, I LOVE YOU SNEBBY !!!`
 		);
 		toaster.pop("Copied");
 	}
